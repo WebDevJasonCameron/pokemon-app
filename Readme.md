@@ -1,4 +1,4 @@
-# Pokemon App
+# Pokemon App | Readme
 
 Welcome to my version of a Full Stack Pokemon Application. It is my goal to demonstrate full stack capabilities within this fun, yet productive, application. Here are the areas I will cover:
 
