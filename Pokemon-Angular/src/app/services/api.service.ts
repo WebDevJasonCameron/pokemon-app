@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders} from '@angular/common/http'
 import { Observable } from 'rxjs';
+import { Pokemon } from '../pokemon';
 
 // VARs
 
@@ -16,13 +17,16 @@ export class ApiService {
   apiUrl = 'https://pokeapi.co/api/v2/pokemon/ditto';
 
   // CON
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
 
   // LC
 
 
   // FUN
+  getPokemon(): Observable<Pokemon>{
+    return this.http.get<Pokemon>(this.apiUrl)
+  }
 
 
 } //<--END

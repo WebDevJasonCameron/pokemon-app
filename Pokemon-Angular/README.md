@@ -8,7 +8,7 @@ The Following are the initial challenges that were provided by CodeUp as an addi
 
 #### Setup
 
-- [ ] Create a public Github repository, commit to it during your progress ●ect
+- [x] Create a public Github repository, commit to it during your progress ●ect
 
 #### Objective
 
