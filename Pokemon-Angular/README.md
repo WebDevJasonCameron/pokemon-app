@@ -1,27 +1,32 @@
-# PokemonAngular
+# Pokemon App - Front End - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
+## Challenges
 
-## Development server
+The Following are the initial challenges that were provided by CodeUp as an additional project. This project is the first step in creating a full-stack application. As the project develops, I will be listing the iterative goals for each phase of the project. Front-end phases will be listed below:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Phase 01
 
-## Code scaffolding
+#### Setup
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [ ] Create a public Github repository, commit to it during your progress ●ect
 
-## Build
+#### Objective
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [ ] Set up a basic frontend application that lists all pokemon, then allows you to click on one to see more information about them
+- [ ] Use the language, framework, and/or css library of your choice
 
-## Running unit tests
+#### Requirements
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [ ] Get the list of Pokemon from the pokemon api https://pokeapi.co/
+- [ ] Should have a screen that lists pokemon in a Grid Style
+- [ ] Should have a screen that shows an image of the pokemon and their information in an intuitive way
+- [ ] Implement a search bar that filters pokemon by name
 
-## Running end-to-end tests
+#### Bonus
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [ ] Implement a favorite button that lets you favorite pokemon
+- [ ] You should use local-storage to save these pokemon
+- [ ] Implement a filter that only shows favorite pokemon
+- [ ] Add automated tests
+- [ ] Make site mobile responsive
+- [ ] Include pagination
